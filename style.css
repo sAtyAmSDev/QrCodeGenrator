@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#main{
+    background:rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:1pc;
+}
+
+#QrInput{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+
+}
+
+#GenerateBTN{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}#GenerateBTN:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
